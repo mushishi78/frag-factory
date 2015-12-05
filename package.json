@@ -1,0 +1,16 @@
+{
+  "name": "frag-factory",
+  "version": "0.0.1",
+  "description": "DOM fragment helper",
+  "main": "dist/frag-factory.js",
+  "author": "Max White",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --quiet",
+    "build": "webpack --progress --hide-modules"
+  }
+}
